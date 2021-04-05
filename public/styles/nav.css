@@ -1,0 +1,22 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    width: 100%;
+    background-color: #4056A1;
+    color: #FFFFFF;
+    padding: 1.5em;
+  }
+  
+  .logo {
+    font-family: 'Bungee', cursive;
+    font-size: 40px;
+  }
+
+  .nav-right{
+      display: flex;
+      flex-direction: column;
+      font-size: 18px;
+      justify-content: center;
+      align-items: center;
+  }
