@@ -50,13 +50,14 @@
   article img{
     opacity: 0.8;
     padding-right: 10px;
-    width: 40%;
+    width: 57.3px;
     height: auto;
   }
 
   .user-tweet{
     display: flex;
     align-items: center;
+    width: auto;
   }
 
   .username-tweet{
