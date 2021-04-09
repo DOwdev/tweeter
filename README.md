@@ -5,9 +5,9 @@ Tweeter is a simple, single-page Twitter clone.
 Project built with HTML, CSS, JS, jQuery and AJAX for the front-end, and Node, Express and MongoDB for the backend back-end.
 
 ## Screenshots
-!["Screenshot of Desktop Layout"]()
-!["Screenshot of Mobile Layout"]()
-!["Second Screenshot of Mobile Layout"]()
+!["Screenshot of Desktop Layout"](https://github.com/DOwdev/tweeter/blob/master/docs/Desktop-Tweeter.png)
+!["Screenshot of Mobile Layout"](https://github.com/DOwdev/tweeter/blob/master/docs/Mobile-Tweeter-1.png)
+!["Second Screenshot of Mobile Layout"](https://github.com/DOwdev/tweeter/blob/master/docs/Mobile-Tweeter-2.png)
 
 ## Getting Started
 
