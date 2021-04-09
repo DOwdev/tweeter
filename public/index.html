@@ -26,16 +26,19 @@
 
   <body>
     <!-- Top nav bar (fixed) -->
-    <nav>
+    <nav class="tweeter-nav">
       <span class="logo">tweeter</span>
       <div class="nav-right">
         <span><strong>Write</strong> a new tweet</span>
         <span style="color: Tomato">
-        <i class="fas fa-angle-double-down"></i>
+          <a href="#" class="btn-compose-tweet" title="Compose Tweet">
+          <i class="fas fa-angle-double-down"></i>
+        </a>
       </span>
       </div>
     </nav>
 
+    <div class="tweeter-desktop">
     <!--Profile header-->
     <div class="landing-wrapper">
     <header>
@@ -52,6 +55,7 @@
     <!-- Page-specific (main) content here -->
     <main class="container">
       <section class="new-tweet">
+        <div class="error-container"></div>
         <h2>Compose Tweet</h2>
         <form id="tweet-form" method="POST" action="/tweets">
           <textarea name="text" id="tweet-text" placeholder="What are you humming about?"></textarea>
@@ -63,7 +67,10 @@
       </section>
       <div id="tweets-container">
       </div>
+      <a class="fixed-button" >
+        <div class="rounded-button"><i class="fas fa-angle-double-up"></i></div>
+      </a>
     </main>
-    <footer></footer>
+    </div>
   </body>
 </html>

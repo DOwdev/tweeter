@@ -3,22 +3,44 @@ nav{
     justify-content: space-between;
     height: 120px;
     width: 100%;
-    background-color: #4056A1;
+    background-color: #D89821;
     color: #FFFFFF;
     padding: 1.5em;
     position:fixed;
     z-index: 99999;
   }
   
-  .logo {
-    font-family: 'Bungee', cursive;
-    font-size: 40px;
-  }
+.logo {
+  font-family: 'Bungee', cursive;
+  font-size: 40px;
+}
 
-  .nav-right{
-      display: flex;
-      flex-direction: column;
-      font-size: 18px;
-      justify-content: center;
-      align-items: center;
+.nav-right{
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-angle-double-down{
+  animation: updown 2s ease infinite;
+}
+@keyframes updown {
+  0% {
+    transform: translateY(-5%);
   }
+  
+  50% {
+    transform: translateY(20%);
+  }
+  
+  100% {
+    transform: translateY(-5%);
+  }
+}
+
+.btn-compose-tweet{    
+  text-decoration: none;
+  color: red;
+}
